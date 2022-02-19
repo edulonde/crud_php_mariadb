@@ -1,0 +1,66 @@
+label{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+}
+.inscricoes{
+    /*display: inline-block;*/
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+}
+input,textarea{
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #5e5d5d;
+    box-shadow: inset 2px 2px 2px #bfbdbd;
+    font-size: 13px;
+    padding: 2px 5px;
+}
+textarea{
+    height: 100px;
+}
+.hint{
+    background-color: rgba(255, 255, 0, 0.49);
+    border-radius: 3px ;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    display: none;
+    font-size: 11px;
+    margin-left: 20px;
+    padding: 3px;
+}
+input:focus + .hint, textarea:focus +.hint{
+    display: inline-block;
+}
+button{
+    background-color: #E5E5E5;
+    background-image: linear-gradient(top, #FFF, #E5E5E5);
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: #285582;
+    background-image: linear-gradient(top,#3775B3, #285582);
+    border-color: #204569;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.6);
+}
+button:active{
+    border-color: #204569;
+    background-image: none;
+    border-color: #1A3754;
+}
+.cadastro{
+    width: 700px;
+    padding-left: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 14px;
+}
